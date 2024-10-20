@@ -1,39 +1,68 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-     <title>The Coming soon Website Template | Home :: w3layouts</title>
-	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-	<link href='http://fonts.googleapis.com/css?family=Petit+Formal+Script' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:300,400' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300' rel='stylesheet' type='text/css'>
-	</head>
-	<body>
-	<div class="content">
-			<div class="wrap">
-				<div class="content-grid">
-			<p><img src="images/top.png" title=""></p>
-				</div>
-				<div class="grid">
-		<p><img src="images/coming.png" title=""></p>
-		<h3>We are Still Working on it.</h3>
-		
-		<form>
-									<input type="text" size="30" value="Your Email and Get Notified..." onblur="if (this.value=='') this.value = 'Your Email and Get Notified...'" onfocus="if (this.value=='Your Email and Get Notified...') this.value = ''" name="email" id="email">
-									<a href="#"><button class="btn span btn-4 btn-4a icon-arrow-right"><span></span></button></a>
-					           
-									<div id="response"></div>
-									
-								</form>
-								<div class="clear"></div>
-								</div>
-		<div class="clear"></div>
-		<div class="footer">
-			<p class="a"><a href="#"><img src="images/facebook.png" title=""></a><a href="#"><img src="images\twitter.png" title=""></a></p>
-		<p>Copyright 2013&nbspTemplate by <a href="http://w3layouts.com"> w3layouts.com</a> </p>
+  <meta charset="UTF-8">
+  <meta name="description" content="Ping coming soon page - Frontend Mentor">
+  <meta name="keywords" content="Ping coming soon page, Frontend Mentor">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+	integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title>Autolii | Coming Soon</title>
+
+
+</head>
+
+<body>
+  <!-- Main Container -->
+  <main>
+    <!-- Header Logo -->
+    <div class="header-logo"></div>
+    <!-- Title Section -->
+    <article class="title-section">
+      <h1>We'll setup shop <span class="soon">soon!</span></h1>
+      <p class="title-info">Subscribe and get notified</p>
+    </article>
+    <!-- Input Section -->
+    <article class="input-section">
+      <section class="input-block">
+        <input id="email-input" class="email-input" type="email" placeholder="Your email address..">
+        <label for="email-input" class="email-input-message"></label>
+      </section>
+      <button class="submit-btn">Notify Me</button>
+    </article>
+    <article class="autolii-services container mt-5">
+		<div class="row">
+			<div class="col-12 col-md-4 autolii-services__card">
+				<img class="img-fluid" src="./images/service-1.jpg">
+			</div>
+			<div class="col-12 col-md-4 autolii-services__card ">
+				<img class="img-fluid" src="./images/service-2.jpg" >
+			</div>
+			<div class="col-12 col-md-4 autolii-services__card ">
+				<img class="img-fluid" src="./images/service-3.jpg" >
+			</div>
 		</div>
-		<div class="clear"></div>
-		</div>
-		</div>
-		<div class="clear"></div>
+    </article>
+  </main>
+  <!-- Footer -->
+  <footer>
+    <!-- Social Media -->
+    <section class="social-media">
+      <a href="https://www.facebook.com/Autolii" target="_blank" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="https://x.com/autolii" target="_blank" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+      <a href="https://www.instagram.com/autolii/" target="_blank" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+    </section>
+    <!-- Copyright -->
+    <p class="copyright"> &copy; Copyright Autolii. All rights reserved.</p>
+  </footer>
 </body>
+
 </html>
